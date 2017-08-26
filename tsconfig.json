@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "commonjs",
+        "declaration": true,
+        "experimentalDecorators": true,
+        "plugins": [{
+            "name": "tslint-language-service",
+            "ignoreDefinitionFiles": true,
+            "configFile": "./tslint.json"
+        }]
+    },
+    "compileOnSave": true
+}
